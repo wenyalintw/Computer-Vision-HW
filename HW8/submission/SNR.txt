@@ -1,0 +1,40 @@
+	image							SNR
+
+		加入noise後，noise removal處理前
+gaussian10				:	13.592766509939194
+gaussian30				:	4.060167602001724
+saltpepper005			:	1.0759904938600393
+saltpepper01			:	-1.4900778457635253
+
+			取gaussian10做處理
+gaussian30_33box		:	17.741838799921968
+gaussian30_55box		:	14.866794900408959
+gaussian30_33median		:	17.66192630194827
+gaussian30_55median		:	16.011435250514133
+gaussian30_op_cl		:	13.26475053974471
+gaussian30_cl_op		:	13.597751665350819
+
+			取gaussian30做處理
+gaussian30_33box		:	12.579020151433191
+gaussian30_55box		:	13.350486154632994
+gaussian30_33median		:	11.123587728636915
+gaussian30_55median		:	12.95568487018745
+gaussian30_op_cl		:	11.137887006033228
+gaussian30_cl_op		:	11.1560540598589
+
+			取saltpepper005做處理
+saltpepper005_33box		:	9.47780968130954
+saltpepper005_55box		:	11.184618312421936
+saltpepper005_33median	:	19.319157425618712
+saltpepper005_55median	:	16.38871799722966
+saltpepper005_op_cl		:	5.591209210482802
+saltpepper005_cl_op		:	5.282347580853731
+
+			取saltpepper01做處理
+saltpepper005_33box		:	6.3453398170185515
+saltpepper005_55box		:	8.512992109209153
+saltpepper005_33median	:	14.924560614990018
+saltpepper005_55median	:	15.744199798051891
+saltpepper005_op_cl		:	-2.083428144867428
+saltpepper005_cl_op		:	-2.468259917453715
+
